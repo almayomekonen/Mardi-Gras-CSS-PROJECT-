@@ -1,0 +1,238 @@
+body {
+  line-height: 1.7;
+  color: #f2f2f2;
+  font-family: "Henny Penny", cursive;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img-logo {
+  width: 200px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+  font-family: "Henny Penny", cursive;
+}
+
+a {
+  color: #092032;
+  transition: all 0.4s ease;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  color: #f2cc02;
+}
+
+.intro p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: auto;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/**************NAVBAR*************/
+.top-nav {
+  background-color: #f2cc02;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: #ffff;
+}
+
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
+}
+
+.social-links a {
+  width: 36px;
+  height: 37px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background-color: white;
+  color: #f2cc02;
+}
+
+.dnavbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link .active {
+  color: #ffff;
+  border: 1px solid #f2cc02;
+  background-color: #f2cc02;
+}
+
+.navbar {
+  font-weight: 700;
+  font-size: 20px;
+  color: #092032;
+  padding: 5% 3% 5% 0;
+  font-family: "Henny Penny", cursive;
+}
+
+/******************slider******************/
+.slide1 {
+  background-image: url(Images/i9pvulsgoiyyblyzutrg\\(1\).webp);
+  background-size: cover;
+}
+
+/****************about**************/
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box img {
+  width: 100px;
+  margin-right: 18px;
+}
+
+/************section***************/
+
+#numbers {
+  background-color: #f2cc02;
+}
+
+#numbers .display-4,
+#numbers p {
+  color: white;
+}
+
+/**********services*****************/
+
+.service-box {
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.service-box img {
+  width: unset;
+}
+
+.service-box h5 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+/***********FOOTER*********/
+
+footer {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  background: linear-gradient(rgba(0, 0, 0, 0.507), #000),
+    url(Images/i9pvulsgoiyyblyzutrg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .navbar-brand {
+  color: white;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+footer,
+h1 {
+  color: white;
+}
+
+.footer-top {
+  margin-bottom: 40px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(128, 128, 128, 0.479);
+  padding-top: 30px;
+}
+
+footer .social-links a {
+  margin-left: 5px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #f2cc02;
+}
+
+#exampleModal {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  #carouselExampleIndicators {
+    display: none !important;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+  #numbers {
+    display: none;
+  }
+}
+
+.icon-xyz {
+  display: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 800px) and (orientation: portrait) {
+  .icon-xyz {
+    display: inline;
+    height: 100%;
+  }
+}
