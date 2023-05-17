@@ -7,7 +7,7 @@
 }
 
 .body {
-  background:linear-gradient(orange, black,gray,orange,black);
+  background: linear-gradient(orange, black, gray, orange, black);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,13 +20,12 @@
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
-
 
 .img-logo {
   width: 200px;
@@ -61,10 +60,8 @@
   font-size: 20px;
   border-radius: 50%;
 }
-
 .social-links a:hover {
-  background-color: white;
-  color: #f2cc02;
+  color: darkgoldenrod;
 }
 
 .navbar {
@@ -87,13 +84,12 @@
 }
 
 h1 {
-padding-top: 100px;
+  padding-top: 100px;
   font-size: 40px;
   color: black;
   text-align: center;
   font-family: "Henny Penny", cursive;
 }
-
 
 .container {
   display: flex;
@@ -163,7 +159,7 @@ padding-top: 100px;
   cursor: pointer;
 }
 
-#exampleModal{
+#exampleModal {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -171,11 +167,11 @@ padding-top: 100px;
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
 
 footer {
@@ -193,11 +189,9 @@ footer .navbar-brand {
   display: inline-block;
 }
 
-footer,
 h1 {
   color: white;
 }
-
 
 .footer-top {
   margin-bottom: 40px;
@@ -211,7 +205,3 @@ h1 {
 footer .social-links a {
   margin-left: 5px;
 }
-
-
-
-
